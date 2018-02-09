@@ -1,0 +1,1000 @@
+    4  vim pg_hba.conf 
+    5  ls
+    6  vim postgresql.conf 
+    7  service postgresql restart
+    8  cd 
+    9  wget https://archive.apache.org/dist/lucene/solr/4.6.0/solr-4.6.0.tgz
+   10  ls
+   11  cd /media/
+   12  ls
+   13  cd /mnt/
+   14  ls
+   15  cd /usr/
+   16  ls
+   17  vboxsf
+   18  yum install dkms
+   19  cd /dev/sr0 
+   20  mount /dev/sr0
+   21  mount /dev/cdrom
+   22  tail -f /var/log/messages
+   23  cd /mnt/
+   24  ls
+   25  cd
+   26  wget https://archive.apache.org/dist/lucene/solr/4.6.0/solr-4.6.0.tgz
+   27  scp root@50.116.9.69:/solr-4.6.0.tgz ./
+   28  tar xvzf solr-4.6.0.tgz
+   29  rsync -auv solr-4.6.0 /usr/local/
+   30  yum install rysnc
+   31  yum install rsync
+   32  rsync -auv solr-4.6.0 /usr/local/
+   33  cd /usr/local/solr-4.6.0/example/
+   34  ls
+   35  cd ..
+   36  cd /usr/local/solr-4.6.0/example/solr/collection1/conf/
+   37  ls
+   38  cp -a schema.xml schema.xml.orig
+   39  su glassfish
+   40  java
+   41  cd 
+   42  scp root@50.116.9.69:/dvinstall.zip ./
+   43  unzip dvinstall.zip 
+   44  ls
+   45  cd dvinstall
+   46  ls
+   47  cp schema.xml /usr/local/solr-4.6.0/example/solr/collection1/conf/schema.xml
+   48  ls
+   49  cd
+   50  ls
+   51  ./solr-start.sh
+   52  chmod +x solr-start.sh 
+   53  ./solr-start.sh
+   54  ./solr-start.sh start
+   55  vim solr-start.sh 
+   56  init
+   57  init solr-start.sh 
+   58  init solr-start
+   59  man init
+   60  ./solr-start.sh start
+   61  vim ./solr-start.sh 
+   62  ./solr-start.sh start
+   63  vim ./solr-start.sh 
+   64  ./solr-start.sh start
+   65  vim ./solr-start.sh 
+   66  ./solr-start.sh start
+   67  vim ./solr-start.sh 
+   68  ./solr-start.sh start
+   69  ls
+   70  cd KZBJJwQN 
+   71  ls
+   72  mv KZBJJwQN solr-start.sh
+   73  ls
+   74  cd..
+   75  cd ..
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd
+   80  ls
+   81  cd /home/bids/
+   82  ls
+   83  mv solr-start.sh ~/
+   84  ls
+   85  cd
+   86  ls
+   87  cd dvinstall
+   88  ./install
+   89  sudo -u postgres psql postgres
+   90  ./install
+   91  ls
+   92  ifconfig
+   93  ip
+   94  ip addr
+   95  ping localhost
+   96  ping localhost:8080
+   97  ping localhost 8080
+   98  telnet localhost 8080
+   99  hping 
+  100  cd /usr/local/glassfish4/
+  101  ls
+  102  cd glassfish/domains/
+  103  ls
+  104  cd domain1/
+  105  ls
+  106  cd config/
+  107  ls
+  108  vim domain.xml
+  109  startx
+  110  clear
+  111  log
+  112  ls
+  113  cd ..
+  114  ls
+  115  ip addr
+  116  cd
+  117  wget http://google.com/index.html
+  118  wget https://google.com/index.html
+  119  ip addr
+  120  clear
+  121  ls
+  122  cd home/bids/
+  123  ls
+  124  cp glassfish.service  /usr/lib/systemd/system
+  125  cd
+  126  ls
+  127  ./solr-start.sh 
+  128  ./solr-start.sh start
+  129  clear
+  130  ls
+  131  systemd
+  132  systemctl
+  133  systemctl glassfish start
+  134  systemctl start glassfish
+  135  systemctl status glassfish.service
+  136  systemctl status glassfish.service -l
+  137  vim /usr/lib/systemd/system/glassfish.service 
+  138  systemctl start glassfish
+  139  systemctl status glassfish.service -l
+  140  wget guides.dataverse.org/ene/latest/_downloads/glassfish.init.service
+  141  ls
+  142  wget guides.dataverse.org/en/latest/_downloads/glassfish.init.service
+  143  ls
+  144  ./glassfish.init.service start
+  145  ls
+  146  chmod +X glassfish.init.service 
+  147  ls
+  148  ./glassfish.init.service
+  149  bash glassfish.init.service 
+  150  bash glassfish.init.service start
+  151  su glassfish
+  152  /usr/local/glassfish4/bin/asadmin start-domain domain1
+  153  /usr/local/glassfish4/bin/asadmin stop-domain domain1
+  154  clear
+  155  /usr/local/glassfish4/bin/asadmin start-domain domain1
+  156  wget http://127.0.0.1:8000
+  157  wget http://127.0.0.1:8080
+  158  ls
+  159  rm index.html 
+  160  ip addr
+  161  curl http://google.com
+  162  ls
+  163  ip addr
+  164  vim /etc/sysconfig/network-scripts/ifconfig-enp0s3
+  165  vim /etc/sysconfig/network-scripts/ifcfg-enp0s3 
+  166  ifdown enp0s3
+  167  ifup enp0s3
+  168  curl http://google.com
+  169  ip addr
+  170  vim /etc/sysconfig/network-scripts/ifcfg-enp0s3 
+  171  ifdown enp0s3
+  172  ifup enp0s3
+  173  vim /etc/sysconfig/network-scripts/ifcfg-enp0s3 
+  174  ifdown enp0s3
+  175  ifup enp0s3
+  176  curl http://google.com
+  177  curl http://google.com/
+  178  curl http://www.google.com/
+  179  clear
+  180  ls
+  181  ipaddr
+  182  ip addr
+  183  netstat
+  184  ls
+  185  mkdir /media/VirtualBoxGuestAdditions
+  186  mount -r /dev/cdrom /media/VirtualBoxGuestAdditions/
+  187  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  188  yum install gcc kernel-devel
+  189  yum install kernel-headers dkms make bzip2 perl
+  190  yum install kernel-headers dkms make
+  191  KERN_DIR=/usr/src/kernels/'uname -r'
+  192  KERN_DIR
+  193  print
+  194  echo KERN_DIR
+  195  KERN_DIR | echo
+  196  $KERN_DIR | echo
+  197  echo $KERN_DIR
+  198  KERN_DIR=/usr/src/kernels/`uname -r`
+  199  echo $KERN_DIR
+  200  export KERN_DIR
+  201  cd /media/VirtualBoxGuestAdditions/
+  202  ls
+  203  ./VBoxLinuxAdditions.run 
+  204  yum install kernel-devel
+  205  ./VBoxLinuxAdditions.run 
+  206  yum install kernel-devel-3.10.0-693.el7.x86_64
+  207  yum install kernel-headers-3.10.0-693.el7.x86_64
+  208  ./VBoxLinuxAdditions.run 
+  209  vim /var/log/vboxadd-setup.log
+  210  yum update kernel*
+  211  curl http://localhost:8080
+  212  curl http://localhost:8080/loginpage.xhtml
+  213  reboot
+  214  clear
+  215  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  216  yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+  217  KERN_DIR=/usr/src/kernels/`uname -r`
+  218  $KERN_DIR
+  219  export KERN_DIR
+  220  cd /media/VirtualBoxGuestAdditions/
+  221  ls
+  222  mount -r /dev/cdrom /media/VirtualBoxGuestAdditions/
+  223  ls
+  224  cd ..
+  225  ls
+  226  cd sf_vmshared/
+  227  ls
+  228  ip addr
+  229  cd ..
+  230  ls
+  231  cd VirtualBoxGuestAdditions/
+  232  ls
+  233  ./VBoxLinuxAdditions.run 
+  234  vim /var/log/vboxadd-setup.log
+  235  make oldconfig && make prepare
+  236  yum install kernel-devel kernel-headers
+  237  ip addr
+  238  systemctl start glassfish
+  239  cd /usr/lib/java-1.8.0/
+  240  ls
+  241  cd ..
+  242  ls
+  243  cd java
+  244  ls
+  245  which java
+  246  cd /bin/j
+  247  cd /bin/
+  248  ls
+  249  cd ..
+  250  ls
+  251  ip addr
+  252  ifdown enp0s3
+  253  ifup enp0s3
+  254  ip addr
+  255  ifconfig
+  256  ip addr
+  257  ifdown enp0s3
+  258  ifup enp0s3
+  259  ip addr
+  260  ping localhost
+  261  curl http://localhost:8080/loginpage.xhtml
+  262  curl http://google.com
+  263  ifdown enp0s3
+  264  ifup enp0s3
+  265  service iptables status
+  266  ifup enp0s3
+  267  vim /etc/resolv.conf 
+  268  sudo reboot now
+  269  ls
+  270  curl http://google.com
+  271  ip addr
+  272  ip up enp0s3
+  273  ipup enp0s3
+  274  ifup enp0s3
+  275  ifdown enp0s3
+  276  ifup enp0s3
+  277  vim /etc/sysconfig/network-scripts/ifcfg-enp0s3 
+  278  ifdown enp0s3
+  279  ifup enp0s3
+  280  ipaddr
+  281  ip addr
+  282  ifup enp0s3
+  283  ip addr
+  284  ifup enp0s3
+  285  ip addr
+  286  systemctl disable firewalld
+  287  systemctl stop firewalld
+  288  ipaddr
+  289  ip addr
+  290  ifup enp0s3
+  291  ifdown enp0s3
+  292  ifup enp0s3
+  293  ip addr
+  294  curl http://google.com
+  295  ip addr
+  296  ifdown enp0s3
+  297  ifup enp0s3
+  298  curl http://google.com
+  299  ip addr
+  300  service iptables stop
+  301  systemctl status firewalld
+  302  ./solr-start.sh 
+  303  ./solr-start.sh start
+  304  ./solr-start.sh startclear
+  305  clear
+  306  ls
+  307  bash glassfish.init.service start
+  308  bash glassfish.init.service start
+  309  ls
+  310  which java
+  311  java -v
+  312  java 
+  313  java -?
+  314  java -X
+  315  cat glassfish.init.service 
+  316  /usr/local/glassfish4/glassfish/asadmin start-domain domain1
+  317  /usr/local/glassfish4/glassfish/bin/asadmin start-domain domain1
+  318  ls
+  319  ls /mnt/
+  320  ls
+  321  ls /mnt/
+  322  ls
+  323  mount
+  324  ls
+  325  ls /mnt/
+  326  cd 
+  327  cd /
+  328  ls
+  329  cd mnt/
+  330  ls
+  331  cd /media/
+  332  ls
+  333  cd sf_vmshared/
+  334  ls
+  335  cd 
+  336  ls
+  337  cp * /media/sf_vmshared/install_files/
+  338  mkdir /media/sf_vmshared/install_files
+  339  cp * /media/sf_vmshared/install_files/
+  340  cp -r * /media/sf_vmshared/install_files/
+  341  cp -r * /media/sf_vmshared/install_files/ << y
+  342  q
+  343  :q
+  344  ls
+  345  rm -r /media/sf_vmshared/install_files/*
+  346  y
+  347  cp -r * /media/sf_vmshared/install_files/
+  348  bash glassfish.init.service stop
+  349  /usr/local/glassfish4/glassfish/asadmin start-domain domain1
+  350  /usr/local/glassfish4/glassfish/bin/asadmin start-domain domain1
+  351  /usr/local/glassfish4/glassfish/bin/asadmin stop-domain domain1
+  352  $PATH
+  353  echo $PATH
+  354  java -version
+  355  su glassfish
+  356  chown -R glassfish /usr/local/glassfish4/glassfish/
+  357  su glassfish
+  358  ls
+  359  /usr/local/glassfish4/glassfish/bin/asadmin start-domain domain1
+  360  /usr/local/glassfish4/glassfish/bin/asadmin stop-domain domain1
+  361  bash glassfish.init.service start
+  362  bash glassfish.init.service stop
+  363  systemctl glassfish start
+  364  systemctl start glassfish
+  365  ls
+  366  cat solr-start.sh 
+  367  cd /usr/lib/systemd/
+  368  ls
+  369  cd system
+  370  ls
+  371  cat glassfish.service 
+  372  cp /media/sf_vmshared/install_files/solr.service ./
+  373  systemctl solr stop
+  374  systemctl stop solr
+  375  systemctl start solr
+  376  systemctl status solr
+  377  vim solr.service 
+  378  sudo useradd -r -s /bin/ solr
+  379  cd /usr/local/solr-4.6.0/
+  380  ls
+  381  cd example/
+  382  ls
+  383  chown -R solr ./*
+  384  chown solr /var/log/solr.log 
+  385  systemctl start solr
+  386  systemctl daemon-reload
+  387  systemctl start solr
+  388  systemctl status solr.service
+  389  cd ..
+  390  ls
+  391  chown -R solr *
+  392  systemctl start solr
+  393  systemctl status solr.service
+  394  systemctl status solr.service -l
+  395  ls
+  396  cd example/
+  397  ls
+  398  java -jar start.jar 
+  399  ~/solr-start.sh stop
+  400  clear
+  401  java -jar start.jar 
+  402  java -jar start.jar --stop
+  403  java -jar start.jar 2> /var/log/solr.log 
+  404  clear
+  405  ls
+  406  fg
+  407  kill %1
+  408  clear
+  409  ls
+  410  cd ..
+  411  ls
+  412  cat SYSTEM_REQUIREMENTS.txt 
+  413  cat README.txt 
+  414  chown -R solr /opt/solr
+  415  chown -R solr /var/solr
+  416  cd
+  417  ls
+  418  ./solr-start.sh stop
+  419  ./solr-start.sh start
+  420  ./solr-start.sh stop
+  421  clear
+  422  ls
+  423  cp solr-start.sh /bin/
+  424  solr-start start
+  425  solr-start.sh start
+  426  solr-start.sh stop
+  427  clear
+  428  mv /bin/solr-start.sh /bin/solr-start
+  429  solr-start start
+  430  clear
+  431  vim solr.service 
+  432  cd /usr/lib/systemd/system
+  433  vim solr.service 
+  434  systemctl daemon-reload
+  435  systemctl start solr
+  436  clear
+  437  vim solr.service 
+  438  systemctl status solr.service 
+  439  systemctl status solr
+  440  systemctl solr stop
+  441  systemctl stop solr
+  442  systemctl start solr
+  443  clear
+  444  cd ..
+  445  start-solr start
+  446  solr-start stop
+  447  solr-start start
+  448  clear
+  449  system ctl enable glassfish.service
+  450  systemctl enable glassfish.service
+  451  systemctl enable solr.service
+  452  systemctl stop solr
+  453  systemctl start solr
+  454  clear
+  455  rebbot
+  456  reboot
+  457  su glassfish
+  458  ls
+  459  bash glassfish.init.service start
+  460  bash glassfish.init.service stop
+  461  bash glassfish.init.service start
+  462  bash glassfish.init.service stop
+  463  cd /usr/local/solr-4.6.0/example/
+  464  ls
+  465  java -jar start.jar --stop
+  466  java -DSTOP.PORT=8079 -DSTOP.KEY=mustard -jar start.jar --stop
+  467  ls
+  468  xit
+  469  exit
+  470  ls
+  471  cd /etc
+  472  ls
+  473  cd ..
+  474  ntsysv
+  475  chkconfig
+  476  vim etc/inittab
+  477  service sshd start
+  478  systemctl
+  479  cd /etc/systemd/system)
+  480  cd /etc/systemd/system
+  481  ls
+  482  cd /lib/systemd/system
+  483  ls
+  484  sudo vim sshd.service 
+  485  reboot
+  486  ssh-keygen
+  487  ls
+  488  su -u bids
+  489  exit
+  490  ls
+  491  cd
+  492  ls
+  493  vim /etc/ssh/sshd_config
+  494  exit
+  495  vim /etc/ssh/sshd_config
+  496  service sshd restart
+  497  exit
+  498  vim /etc/ssh/sshd_config 
+  499  exit
+  500  service ssh restart
+  501  service sshd restart
+  502  exit
+  503  vim /etc/ssh/sshd_config 
+  504  exit
+  505  vim /etc/ssh/sshd_config 
+  506  ls
+  507  TEST="%h/.ssh"
+  508  $TEST
+  509  echo $TEST
+  510  cd %h
+  511  sshd_config
+  512  man 5 sshd_config
+  513  vim /etc/ssh/sshd_config 
+  514  exit
+  515  vim /etc/ssh/sshd_config 
+  516  service ssh reload
+  517  service sshd reload
+  518  exit
+  519  vim
+  520  vim /etc/ssh/sshd_config 
+  521  service sshd reload
+  522  exit
+  523  vim /etc/ssh/sshd_config 
+  524  service sshd reload
+  525  exit
+  526  ls
+  527  cd
+  528  ls
+  529  ls misc/
+  530  ls
+  531  exit
+  532  yum install httpd mod_ssl
+  533  exit
+  534  shibd
+  535  mod_shibd
+  536  mod_shib
+  537  yum install shibboleth shibboleth-embedded-ds
+  538  asadmin list-network-listeners
+  539  exit
+  540  cd /usr/local
+  541  ls
+  542  cd glassfish4/
+  543  ls
+  544  cd glassfish/
+  545  ls
+  546  cd doamins
+  547  cd domains/
+  548  ls
+  549  cd domain1/
+  550  ls
+  551  cd logs
+  552  ls
+  553  cd server
+  554  ls
+  555  cd tx
+  556  ls
+  557  cd ..
+  558  ls
+  559  cd ..
+  560  ls
+  561  cd autodeploy
+  562  ls
+  563  cd bundles/
+  564  ls
+  565  ls -a
+  566  cd ..
+  567  ls
+  568  cd ..
+  569  cd bin
+  570  ls
+  571  ls -a
+  572  cd ..
+  573  cd config
+  574  ls
+  575  cd ../
+  576  cd ..
+  577  cd ...
+  578  ls
+  579  cd //
+  580  cd .. 
+  581  cd ..
+  582  ls
+  583  cd 
+  584  ls
+  585  cd -a
+  586  ls -a
+  587  solr-start.sh
+  588  cd /bin
+  589  ls
+  590  solr start
+  591  ./solr start
+  592  cd solr-start 
+  593  ./solr-start
+  594  ./solr-start start
+  595  exit
+  596  ls
+  597  cd /usr
+  598  ls
+  599  cd local
+  600  ls
+  601  cd glassfish4/
+  602  ls
+  603  cd bin
+  604  ls
+  605  cd ..
+  606  cd glassfish
+  607  ls
+  608  cd bin
+  609  ls
+  610  ./asadmin deploy --port 8080 --host localhost /dvinstall/dataverse
+  611  ./asadmin deploy --port 5000 --host localhost /dvinstall/dataverse
+  612  ./asadmin deploy --port 8080 --host localhost /dvinstall/dataverse
+  613  ./asadmin start-domain 
+  614  ./asadmin start-domain -help
+  615  ./asadmin start-domain -help -domain1
+  616  ./asadmin start-domain domain1
+  617  ps -ef |grep java
+  618  netstat -nao | grep 4848
+  619  hostname
+  620  ping localhost.localdomain
+  621  ls
+  622  cd ..
+  623  ls
+  624  cd ..
+  625  ls
+  626  cd ..
+  627  ls
+  628  cd ..
+  629  ls
+  630  cd etc
+  631  ls
+  632  cd 
+  633  cd etc
+  634  ls
+  635  cd /etc
+  636  ls
+  637  cd hosts
+  638  vim hosts
+  639  hostname
+  640  netstat
+  641  ./netstat
+  642  ls 
+  643  cd 
+  644  cd /usr/local/glassfish4/
+  645  ls
+  646  cd glassfish
+  647  ls
+  648  cd config
+  649  ls
+  650  cd branding
+  651  ls
+  652  cd ..
+  653  cd domains
+  654  ls
+  655  cd domain1
+  656  ls
+  657  cd config
+  658  ls
+  659  vim init.conf
+  660  cd ls
+  661  ls
+  662  cd init.conf
+  663  ls
+  664  cd img
+  665  cd imq
+  666  ls
+  667  cd ..
+  668  ls
+  669  cd ..
+  670  ls
+  671  cd ..
+  672  ls
+  673  cd ..
+  674  ls
+  675  cd domain1
+  676  cd autodeploy
+  677  ls
+  678  cd bundles
+  679  ls
+  680  cd ..
+  681  cp /dvinstall/dataverse.war ./
+  682  cp ~/dvinstall/dataverse.war ./
+  683  ls
+  684  ~/usr/local/glassfish4/glassfish/bin/asadmin stop
+  685  cd ~/usr/local/
+  686  ls 
+  687  cd 
+  688  cd /usr/local/glassfish4/
+  689  cd glassfish
+  690  ls
+  691  cd bin
+  692  ls
+  693  asadmin stop
+  694  ./asadmin stop-service
+  695  ./asadmin stop-domain
+  696  ./asadmin start-domain
+  697  ls
+  698  cd ..
+  699  ls
+  700  cd domains
+  701  ls
+  702  cd domain1
+  703  ls
+  704  cd autodeploy/
+  705  ls
+  706  ls -a
+  707  cd .autodeploystatus/
+  708  ls
+  709  cd dataverse.war 
+  710  vim dataverse.war
+  711  ls
+  712  rm dataverse.war 
+  713  ls
+  714  cd ..
+  715  ls
+  716  rm dataverse.war
+  717  rm dataverse.war_deployFailed 
+  718  ls
+  719  cd..
+  720  cd ..
+  721  ls
+  722  cd bin
+  723  ls
+  724  cd ..
+  725  ls
+  726  cd ..
+  727  ls
+  728  cd bin
+  729  ./asadmin stop-domain
+  730  ./asadmin start-domain
+  731  ./asadmin deploy ~/dvinstall/dataverse
+  732  cd 
+  733  ls
+  734  cd dvinstall
+  735  ls
+  736  ./asadmin deploy ~/dvinstall/dataverse.war
+  737  cd /usr/local/glassfish4/glassifhs
+  738  cd /usr/local/glassfish4/glassfish
+  739  ls
+  740  cd bin
+  741  ls
+  742  ./asadmin deploy ~/dvinstall/dataverse.war
+  743  exit
+  744  cd
+  745  cd /usr/local/glassfish4/glassifh
+  746  cd /usr/local/glassfish4/glassfish
+  747  ls
+  748  cd domains
+  749  cd domain1
+  750  ls
+  751  cd logs
+  752  ls
+  753  cd ..
+  754  ls
+  755  cd ..
+  756  ls
+  757  cd ..
+  758  ls
+  759  cd..
+  760  ls
+  761  cd bin
+  762  ls
+  763  ./asadmin list-applications
+  764  cd ..
+  765  ls
+  766  cd ..
+  767  ls
+  768  cd glassfish
+  769  ls
+  770  cd glassfish4/
+  771  ls
+  772  cd glassfish
+  773  ls
+  774  cd bin
+  775  ls
+  776  ./asadmin stop-domain
+  777  ./asadmin start-domain
+  778  exit
+  779  ls
+  780  cd 
+  781  ls
+  782  exit
+  783  ls
+  784  cd
+  785  ls
+  786  cd /
+  787  ls
+  788  cd var/local/
+  789  ls
+  790  cd /opt/
+  791  ls
+  792  cd /etc/
+  793  ls
+  794  cd
+  795  ls
+  796  vim glassfish.init.service 
+  797  cd /usr/local/glassfish4/
+  798  ls
+  799  cd glassfish/
+  800  ls
+  801  find log
+  802  find
+  803  find | grep log
+  804  cd domains/domain1/
+  805  cd logs/
+  806  ls
+  807  cat server.log
+  808  more cat server.log
+  809  ls
+  810  cd
+  811  ls
+  812  cd usr/local/glassfish4/domains/domain1/
+  813  cd usr
+  814  cd /usr/local/glassfish4/domains/domain1/
+  815  cd /usr/local/glassfish4/glassfish/
+  816  ls
+  817  service stop glassfish
+  818  service glassfish stop
+  819  service glassfish start
+  820  ls
+  821  cd 
+  822  ls
+  823  ./solr-start.sh 
+  824  ./solr-start.sh start
+  825  ./solr-start.sh stop
+  826  ./solr-start.sh start
+  827  ls
+  828  vim glassfish.init.service 
+  829  sudo -u glassfish /usr/local/glassfish4/bin/asadmin start-domain domain1
+  830  sudo -u glassfish /usr/local/glassfish4/bin/asadmin stop-domain domain1
+  831  sudo -u glassfish /usr/local/glassfish4/bin/asadmin start-domain domain1
+  832  service glassfish stop
+  833  sudo -u glassfish /usr/local/glassfish4/bin/asadmin start-domain domain1
+  834  cd ls
+  835  ls
+  836  cd /usr/local/
+  837  ls
+  838  cd glassfish4/
+  839  ls
+  840  chown -r * glassfish
+  841  chown --help
+  842  chown -R glassfish ./
+  843  chown -R glassfish ./*
+  844  systemctl
+  845  systemctl glassfish
+  846  systemctl status glassfish
+  847  reboot
+  848  ls
+  849  systemctl status glassfish
+  850  cd /usr/local/glassfish4sudo chown -R glassfish /usr/local/glassfish4
+  851  sudo chown -R glassfish /usr/local/glassfish4
+  852  sudo chown -R root /usr/local/glassfish4
+  853  reboot
+  854  ls
+  855  systemctl glassfish
+  856  systemctl  status glassfish
+  857  sudo chown -R glassfish /usr/local/glassfish4
+  858  systemctl restart glasfish
+  859  systemctl restart glassfish
+  860  cd
+  861  ls
+  862  vim fix_ownership.sh
+  863  sudo ./fix_ownership.sh 
+  864  ./fix_ownership.sh 
+  865  chmod +x fix_ownership.sh 
+  866  ./fix_ownership.sh 
+  867  sudo ./fix_ownership.sh 
+  868  vim /etc/ssh/sshd_config 
+  869  systemctl restart sshd
+  870  journalctl -xe
+  871  vim /etc/ssh/sshd_config 
+  872  systemctl restart sshd 
+  873  journalctl -xe
+  874  /etc/init.d/sshd restart
+  875  vim /etc/ssh/sshd_config 
+  876  mv /etc/ssh/sshd_config sshd_config.bak
+  877  ls
+  878  cp sshd_config /etc/ssh/sshd_config
+  879  cp sshd_config.bak /etc/ssh/sshd_config
+  880  ls
+  881  vim /etc/ssh/sshd_config 
+  882  systemctl restart sshd 
+  883  systemctl status sshd
+  884  ls
+  885  ssh bids@localhost
+  886  systemctl stop firewalld
+  887  systemctl status firewalld
+  888  ifconfig
+  889  if ;
+  890  ifconf
+  891  ipconfig
+  892  ip addr
+  893  systemctl status sshd
+  894  firewalld
+  895  firewalld -h
+  896  firewalld -debug
+  897  systemctl firewalld
+  898  systemctl firewalld stop
+  899  systemctl stop firewalld
+  900  reboot
+  901  ufw
+  902  ufw disable
+  903  iptables -F
+  904  ip a
+  905  ping google.com
+  906  ip a
+  907  ifconfig
+  908  ip a
+  909  ping google.com
+  910  vim /etc/ssh/sshd_config 
+  911  service sshd restart
+  912  systemctl status sshd.service
+  913  vim /etc/ssh/sshd_config 
+  914  systemctl status sshd.service
+  915  service sshd restart
+  916  systemctl status sshd.service
+  917  vim /etc/ssh/sshd_config 
+  918  service sshd restart
+  919  vim /etc/ssh/sshd_config 
+  920  semanage port -a -t ssh_port_t -p tcp 2222
+  921  service sshd restart
+  922  restart
+  923  sudo reboot
+  924  ls
+  925  cd
+  926  ls
+  927  ./fix_ownership.sh 
+  928  service sshd restart
+  929  reboot
+  930  cat /etc/os-release 
+  931  yum install tmux
+  932  tmux
+  933  tmux attach
+  934  cd /usr/local/glassfish4/
+  935  ls
+  936  cd glassfish/
+  937  ls
+  938  cd domains/
+  939  ls
+  940  cd domain1/
+  941  ls
+  942  cd applications/
+  943  lls
+  944  ls
+  945  cd dataverse/
+  946  ls
+  947  find .war
+  948  find *.war
+  949  find | grep *.war
+  950  cd ..
+  951  ls
+  952  cd ..
+  953  ls
+  954  cd autodeploy/
+  955  ls
+  956  cd bundles/
+  957  ls
+  958  cd ..
+  959  ls
+  960  cd /etc/services 
+  961  cd ..
+  962  ls
+  963  cd ..
+  964  ls
+  965  cd ..
+  966  ls
+  967  find /etc/ -iname \*services\*
+  968  cd /etc/services 
+  969  cat /etc/services 
+  970  find /etc/ \*init\*
+  971  find /etc/ \*glass\*
+  972  find /etc/init.d/
+  973  systemctl list
+  974  systemd-cat
+  975  cd /etc/systemd/system
+  976  ls
+  977  cd ..
+  978  cd user
+  979  ls
+  980  cd ..
+  981  ls
+  982  systemctl
+  983  systemctl status glassfish
+  984  cd /usr/lib/systemd/system
+  985  ls
+  986  cat glassfish.service 
+  987  grep glass /etc/passwd
+  988  exit
+  989  cd /etc/sudoers.d/
+  990  ls -ka
+  991  cat /etc/sudoers
+  992  vi /etc/sudoers
+  993  tmux attach
+  994  tmux 
+  995  pwd
+  996  cd /etc/sudoers.d/
+  997  cat > all-nopasswd
+  998  ls -la
+  999  cat all-nopasswd 
+ 1000  tmux ls
+ 1001  history
+ 1002  history | less
+ 1003  history | tee install.history-pre-feb-9-2018
